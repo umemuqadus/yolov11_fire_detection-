@@ -1,0 +1,6 @@
+# Paths are relative to this file's own directory (Home_Fire_YOLO/configs/).
+# Duplicate-free validation split (built by clean_eval.py).
+train: ../data/home_fire/train/images
+val: ../data/home_fire_clean/val/images
+nc: 2
+names: ['fire', 'smoke']

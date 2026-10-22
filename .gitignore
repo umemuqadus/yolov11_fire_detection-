@@ -1,0 +1,54 @@
+# ============================================================
+# Never commit: datasets, videos, weights, logs, local outputs
+# ============================================================
+
+# ---- Datasets (download from Kaggle) ----
+datasets/
+extracted/
+data/
+Home_Fire_YOLO/data/
+*.zip
+
+# ---- Videos / media outputs ----
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+outputs/
+Home_Fire_YOLO/outputs/
+
+# ---- Model weights & binaries ----
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.pb
+models/
+Home_Fire_YOLO/models/
+
+# ---- Training runs ----
+runs/
+Home_Fire_YOLO/runs/
+
+# ---- Logs / caches ----
+*.log
+*.cache
+logs/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

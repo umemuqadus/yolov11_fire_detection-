@@ -1,0 +1,24 @@
+# ---- Large data & model artifacts (keep out of Git) ----
+data/
+runs/
+models/*.pt
+models/*.onnx
+outputs/
+*.pt
+*.onnx
+*.engine
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- Jupyter / editor ----
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# ---- Original dataset archive (never commit) ----
+*.zip

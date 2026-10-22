@@ -1,0 +1,9 @@
+# Paths are relative to this file's own directory (Home_Fire_YOLO/configs/).
+# Ultralytics resolves them against the YAML file location, so the repo is portable.
+train: ../data/home_fire/train/images
+val: ../data/home_fire/val/images
+test: ../data/home_fire/test/images
+names:
+  0: fire
+  1: smoke
+nc: 2
